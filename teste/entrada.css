@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Patrick+Hand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.root {
+    --cor0:#42342a;
+    --cor1:#8c5530;
+    --cor2: #c27542;
+    --cor3: #c2987c;
+    --cor4: #4b7375;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:#8c5530 ;
+}
+
+header{
+    background-color: #4b7375;
+    height: 55px;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.164);
+}
+
+header > p{
+    padding-top: 10px;
+    padding-left: 1160px;
+    font-family: 'Concert One', sans-serif;
+    font-size: 30px;
+    color: #332820;
+    
+}
+
+#seta {
+    position: absolute;
+    top: 8px;
+    left: 37px;
+    border-radius: 50px;
+    background-color:#8c5530 ;
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+main{
+    background-color: beige;
+    margin: 0px  50px 30px 50px;
+    height: 557px;
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.322);
+}
+
+h1{
+    padding-top: 15px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 50px;
+    color: #271f18;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.247);
+}
+
+
+
+fieldset{
+    margin: 0px 50px 30px 50px;
+    background-color: #c2987c41;
+    border:none;
+    columns: 2;
+    padding-bottom: 20px;    
+}
+
+
+fieldset >p{
+    display: inline;
+    font-family:'Concert One', sans-serif ;
+    weight: bolder;
+    font-size: 50px;
+    color: #42342a;
+
+}
+
+div{
+   background-color: #4b7375;
+    margin-top: 30px;
+    width: 510px;
+    height: 180px;
+    display: inline-block;
+    margin-left: 30px;
+    box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.274);
+    
+
+}
+
+div >img {
+  padding-top: 20px;
+  padding-left: 20px;
+    
+   
+}
+
+#b {
+    position: absolute;
+    top: 240px;
+    left: 380px;
+}
+
+#c {
+    position: absolute;
+    top: 440px;
+    left:380px ;
+}
+
+#u{
+    position: absolute;
+    top:240px ;
+    left: 960px;
+}
+
+#t {
+    position: absolute;
+    top: 440px;
+    left: 920px;
+    font-size: 42px;
+}
+
+div:hover{
+    border: 6px solid #42342a;
+  border-radius: 2px;
+  background-color: #4bafb4cb; 
+  color: #8c5530;
+  
+}
+
+
+
+
+

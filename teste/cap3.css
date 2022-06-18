@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Patrick+Hand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+.root {
+    --cor0:#42342a;
+    --cor1:#8c5530;
+    --cor2: #c27542;
+    --cor3: #c2987c;
+    --cor4: #4b7375;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #4b7375;
+    height: 55px;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.164);
+}
+
+header #p{
+    padding-top: 1px;
+    padding-left: 530px;
+    font-family: 'Concert One', sans-serif;
+    font-size: 47px;
+    color: #332820;
+    
+}
+
+#seta:hover{
+    background-color: #332820;
+}
+
+#seta {
+    position: absolute;
+    top: 8px;
+    left: 37px;
+    border-radius: 50px;
+    background-color:#8c5530 ;
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+body{
+    background-color: #c2987c;
+}
+
+main{
+    background-color: #42342a;
+    margin: 0px 100px 30px 100px;
+    color: azure;
+    padding-bottom: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+
+}
+
+h1{
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 2.8em;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-top: 5px;
+    margin-left: 90px;
+    margin-bottom: 0px;
+    
+    color: #c2987c;
+}
+
+
+
+span{
+    font-weight: bolder;
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 1.3em;
+    color: #ddbfab;
+}
+
+
+
+
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.45em;
+    margin-left: 60px;
+    text-align: justify;
+    width: 580px;
+    padding-bottom: 10px;
+    line-height: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    
+}
+
+
+
+#p2{
+   font-family:  'Patrick Hand';
+   font-size: 1.7em;
+}
+
+#p3{
+    background-image: linear-gradient(to left, #b17249, transparent);
+}
+
+#p4{
+    background-image: linear-gradient(to right, #b17249, transparent);
+    margin-top: 7px;
+    padding: 20px 5px;
+}
+
+#p5{
+    background-image: linear-gradient(to left, #b17249, transparent);
+    margin-top: 7px;
+    padding: 20px 5px;
+}
+
+#p3:hover{
+    background-image: linear-gradient(to left, #96745e, transparent);
+}
+
+#p4:hover{
+    background-image: linear-gradient(to right, #96745e, transparent);
+    
+}
+
+#p5:hover{
+    background-image: linear-gradient(to left, #96745e, transparent);
+}
+
+#foto1{
+    position: absolute;
+    top: 16%;
+    left: 64%;
+}
+
+#foto2{
+    position: absolute;
+    top: 57%;
+    left: 64%;
+}
+
+#h1{
+    color: #977f6d;
+    margin-left: 140px;
+    font-size: 2.9em;
+    margin-top: 0px;
+    margin-left: 400px;
+}
+
+#n1{
+    width: 1000px;
+    padding: 10px, 15px;
+    margin-left: 65px;
+    background-image: linear-gradient(to right, #83624b, transparent);
+}
+
+#n2{
+    width: 1000px ;
+    padding: 10px, 15px ;
+    margin-left: 75px;
+    margin-top: 20px;
+    background-image: linear-gradient(to left, #4b7375, transparent);
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+#n2>p{
+    width: 610px;
+    padding-left: 300px;
+    
+}
+
+#n3{
+    width: 1000px;
+    padding: 10px, 15px;
+    margin-left: 65px;
+    background-image: linear-gradient(to right, #83624b, transparent);
+
+}
+
+#foto4{
+    position: absolute;
+    top: 133%;
+    left: 12%;
+}
+
+#oioi{
+    background-color: #4b7375;
+    width: 20px;
+    margin: 0px;
+    position: absolute;
+    top: 132%;
+    left: 11%;
+
+}
+
+#oioi>#divv{
+    display: none;
+}
+
+
+   
+
+#oioi:hover> #divv{
+    display: inline-block;
+
+}
+

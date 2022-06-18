@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body {
+    
+    background-image: linear-gradient( to right, #45413D, #42342A,#45413D  );
+}
+#cabeçalho {
+    background-color: #635240; 
+    box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.356);
+    height: 48px;
+    margin: -7px -8px 0px -10px;
+   
+}
+
+ .texto {
+
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 1.3em;
+    position: fixed;
+    top: 3px;
+    right: 50px;  
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+  
+   
+}
+
+.texto:hover {
+    background-color: #4b7375;
+    height: 30px;
+    border-radius: 5px;
+    color: #635240;
+    
+}
+
+h2 {
+    margin-top: 100px;
+    margin-left: 200px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:40px;
+    color: #3a6061;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.377);
+}
+
+h1 {
+    margin-left: 190px;
+    margin-top: -10px;
+    margin-bottom: 1%;
+    font-size: 140px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 4px 7px 3px rgba(0, 0, 0, 0.288);
+}
+
+.login {
+    display: inline;
+    position:  relative;
+    left: 450px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    border-radius: 4px;
+   
+    
+}
+
+.login:hover {
+    font-weight: bolder;
+    background-color:#3a6061 ;
+    color: black
+   
+}
+
+#login {
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+

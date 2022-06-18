@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Patrick+Hand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+.root {
+    --cor0:#42342a;
+    --cor1:#8c5530;
+    --cor2: #c27542;
+    --cor3: #c2987c;
+    --cor4: #4b7375;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #4b7375;
+    height: 55px;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.164);
+}
+
+header #p{
+    padding-top: 1px;
+    padding-left: 5px;
+    font-family: 'Concert One', sans-serif;
+    font-size: 47px;
+    color: #332820;
+    
+}
+
+#seta {
+    position: absolute;
+    top: 8px;
+    left: 37px;
+    border-radius: 50px;
+    background-color:#8c5530 ;
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+body{
+    background-color: #8c5530;
+}
+
+main{
+    margin: 0px 50px 30px 50px;
+    background-color: beige;
+    height: 660px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.308);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Patrick Hand', sans-serif ;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    font-size: 48px;
+    color: #271f18;
+   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.226);
+}
+
+fieldset{
+    background-color: #c2987c2f;
+    margin: 0px 20px 40px 20px;
+    height: 380px;
+    padding-left: 5px;
+    columns: 5;
+    border: none;
+    padding-top: 30px;
+}
+
+aside{
+    background-color: #4b7375;
+    width: 200px;
+    height: 330px;
+    padding-left: 0px;
+    padding-top: 12px;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.315);
+    color: black;
+    
+}
+a{
+    text-decoration: none;
+  
+}
+
+h3{
+   text-align: center;
+    font-family: 'Concert One', sans-serif ;
+    font-size: 2.2em;
+    color: #271f18;
+    
+}
+
+p{
+    font-family:'Patrick Hand', sans-serif ;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+    
+}
+
+aside:hover{
+    border: 1px solid #271f18;
+    background-color: #4bafb4cb;
+}
+
+aside:active{
+    background-color: #c27542;
+}
+
+nav{
+    height: 200px;
+}
+
+
+
+nav > p{
+    display: inline-block;
+}
+
+nav > #final{
+     
+    position: absolute;
+    left: 28%;
+    top: 100%;
+    background-color: #c27542;
+    font-size: 2.4em;
+    border-radius: 5px;
+    padding: 6px ;
+   
+   
+}
+
+
+
+    nav> .final, .finall{
+        display: none;
+    }
+
+    nav:hover > .final {
+        display: inline-block;
+        position: absolute;
+        left: 65%;
+        top: 92%;
+        font-size: 1.9em
+        ;
+    }
+
+    nav:hover > .finall{
+        display: inline-block;
+        position: absolute;
+        top: 107%;
+        left: 75%;
+        font-size: 1.6em;
+        width: 70px;
+        background-color: #5c8d7a;
+        border-radius: 5px;
+      
+    }
+
+    #oi {
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+    nav > #final:hover {
+        color: #c7b9af;
+    }
+
+    nav> .final:hover{
+      color: #271f18;
+    } 
+
+    nav> .finall:hover{
+        background-color: #4b7375;
+    }
+
+

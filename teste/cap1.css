@@ -1,0 +1,146 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Patrick+Hand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+.root {
+    --cor0:#42342a;
+    --cor1:#8c5530;
+    --cor2: #c27542;
+    --cor3: #c2987c;
+    --cor4: #4b7375;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #4b7375;
+    height: 55px;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.164);
+}
+
+header #p{
+    padding-top: 1px;
+    padding-left: 550px;
+    font-family: 'Concert One', sans-serif;
+    font-size: 47px;
+    color: #332820;
+    
+}
+
+header>#p:hover{
+    color: #503625;
+    width: 230px;
+
+}
+
+#seta:hover{
+    background-color: #332820;
+}
+
+#seta {
+    position: absolute;
+    top: 8px;
+    left: 37px;
+    border-radius: 50px;
+    background-color:#8c5530 ;
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
+body{
+    background-color: #c2987c;
+}
+
+main{
+    background-color: #42342a;
+    margin: 0px 80px 30px 80px;
+    color: azure;
+    padding-bottom: 15px;
+
+}
+
+h2{
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 2.8em;
+    font-weight: bold;
+    padding-left: 80px;
+    padding-top: 10px;
+    
+    color: #c2987c;
+}
+
+
+
+main>p:hover{
+    font-size: 1.5em;
+}
+
+
+
+main> p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4em;
+    margin-left: 10px;
+    text-align: justify;
+    text-indent: 30px;
+    width: 500px;
+    padding-bottom: 10px;
+    line-height: 1.2em;
+    
+}
+
+#img1 {
+    position: absolute;
+    top: 16%;
+    left: 48%;
+    width: 16%;
+}
+
+#img1:hover{
+    position: absolute;
+    min-width: 18%;
+}
+
+#img2{
+    position: absolute;
+    top: 24%;
+    left:65% ;
+    width:26% ;
+}
+
+#img2:hover{
+    position: absolute;
+    width: 28%;
+}
+
+#img3{
+    position: absolute;
+    top: 58%;
+    left: 48% ;
+    width: 25%;
+}
+
+#img3:hover{
+    position: absolute;
+    width: 27%;
+}
+
+#tenda{
+    position: absolute;
+    top: 70%;
+    left: 73%;
+    background-color: #8c5530;
+   border-radius: 6px;
+   width: 250px;
+   font-size: 1.4em;
+
+}
+
+#tenda:hover{
+    font-size: 1.5em;
+}
